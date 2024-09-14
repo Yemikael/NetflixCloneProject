@@ -1,0 +1,83 @@
+.footer_outer_container {
+  background-color: #111;
+  color: grey;
+  display: flex;
+  /* Changed from none to flex */
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+  /* Center align the content */
+  flex-direction: column;
+  /* Arrange items vertically */
+}
+
+.footer_inner_container {
+  width: 80%;
+  /* Increased width for better spacing */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* Allow wrapping for better responsiveness */
+  margin-top: 20px;
+  /* Added margin to separate from icons */
+}
+
+.footer_icons {
+  width: 10%;
+  /* Adjusted width */
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.footer_data {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* Wrap items for smaller screens */
+  width: 100%;
+  /* Ensures full width */
+  margin-top: 10px;
+  /* Adds spacing between footer sections */
+}
+
+.footer_data ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Adjusted for better spacing */
+  height: 12vh;
+  margin: 0 15px;
+  /* Adds space between lists */
+  text-align: left;
+  /* Left align text */
+}
+
+.footer_data ul li {
+  cursor: pointer;
+  margin-bottom: 5px;
+  /* Adds spacing between list items */
+}
+
+.service_code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  margin: 20px 0;
+  /* Increased margin for separation */
+  cursor: pointer;
+  text-align: center;
+  /* Center align text */
+}
+
+.copy-write {
+  font-size: 12px;
+  text-align: center;
+  /* Center align text */
+  margin-top: 20px;
+  /* Added margin-top for spacing */
+  color: #fff;
+  /* White text for better visibility */
+}
