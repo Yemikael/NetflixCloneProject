@@ -1,5 +1,6 @@
 import React from "react";
-import "./footer.css";
+import  "./Footer.css";
+
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
